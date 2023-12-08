@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+}
+
+
+form {
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 1rem;
+}
+
+label {
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+input, select, textarea {
+    height: 30px;
+    padding: 0 0 0 0.4rem;
+    line-height: 30px;
+}
+
+.form-submit {
+    width: 100%;
+    padding: 0 1rem;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: 100%;
+    border: 1px solid black;
+    border-color: #ccc #ccc #bbb;
+    border-radius: 0.2rem;
+    background: #e6e6e6;
+    color: rgba(0,0,0, .8);
+    font-size: 16px;
+}
+
+input[type="reset"] {
+    margin-top: 1rem;
+    background: #34495e;
+    color: white;
+}
+
+textarea, input[type="text"] {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-group-radio, .form-group-checkbox {
+    display: flex;
+}
+
+.form-group-radio div, .form-group-checkbox div {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.form-group-radio div label, .form-group-checkbox div label{
+    margin: 0 1rem 0 0;
+}
+
+.w-100 {
+    width: 100%;
+}
